@@ -2104,6 +2104,54 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Cafe",
+            "id": "b4afc5cf-2afc-4b49-b87d-e98bbfe48cbf",
+            "actions": [
+                {
+                    "name": "Toggle",
+                    "type": "Button",
+                    "id": "3a893d58-bd3f-424e-8555-60f62b029284",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Color",
+                    "type": "Value",
+                    "id": "37adf484-8bd0-4093-b8e3-d0bfdcc83696",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d283a8dd-097a-465d-898b-d50d8a429002",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce15392e-5339-4c0d-8db2-79cebed2aa58",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Color",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
